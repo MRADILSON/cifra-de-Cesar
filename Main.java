@@ -15,7 +15,7 @@ public class Main {
         int key = 5;
         Criptografia cr = new Criptografia(key);
 
-        String encriptedText = cr.criptografar_public("Angola");
+        String encriptedText = cr.criptografar_public("MR.ADILSON");
         String decriptedText = cr.decriptografar(encriptedText, key);
 
         System.out.println(encriptedText);
